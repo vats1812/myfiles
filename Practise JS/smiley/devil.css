@@ -1,0 +1,54 @@
+.devil {
+    margin: auto;
+    width: 30vw;
+    height: 30vw;
+    background-color: darkmagenta;
+    border-radius: 50vw;
+    border: rgb(255, 0, 0) solid 1.2vmin;
+    top: 0;
+    left: 0;
+    display: flex;
+    /* display: none; */
+    position: relative;
+    align-items: center;
+}
+
+.eye3,
+.eye4 {
+    width: 5vw;
+    height: 4vw;
+    background-color: white;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    align-items: center;
+    top: -3vw;
+}
+
+.brow1,
+.brow2 {
+    width: 4.5vw;
+    height: 1vw;
+    background-color: black;
+    position: relative;
+    align-items: center;
+    top: -2.4vw;
+}
+
+.brow1 {
+    left: 0.8vw;
+    transform: rotateZ(40deg);
+}
+
+.brow2 {
+    left: -0.1vw;
+    transform: rotateZ(-40deg);
+}
+
+.eye3 {
+    left: 5.5vw;
+}
+
+.eye4 {
+    left: 11.5vw;
+}
