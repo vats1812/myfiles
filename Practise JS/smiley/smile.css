@@ -41,10 +41,10 @@
     position: relative;
     top: 1vw;
     left: 0vw;
-    animation: eyes 2s infinite;
+    animation: smile 2s infinite;
 }
 
-@keyframes eyes {
+@keyframes smile {
     0% {
         left: 0vw;
     }
