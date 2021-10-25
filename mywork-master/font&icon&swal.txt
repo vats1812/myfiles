@@ -10,3 +10,5 @@
 
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
